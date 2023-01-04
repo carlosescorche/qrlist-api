@@ -1,0 +1,19 @@
+services:
+  app:
+    image: cosmtrek/air
+    working_dir: /app
+    env_file: .env
+    volumes:
+      - .:/app
+    ports:
+      - "8081:8081"
+    depends_on:
+      - db
+  db:
+    image: mongo
+    volumes:
+      - datadb:/data/db
+    ports:
+      - "27017:27017"
+volumes:
+  datadb:

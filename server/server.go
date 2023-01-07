@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/carlosescorche/qrlist/database"
+	"github.com/carlosescorche/qrlist-api/database"
 	"github.com/gorilla/mux"
 )
 

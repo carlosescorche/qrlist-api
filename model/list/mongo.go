@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/carlosescorche/qrlist/database"
+	"github.com/carlosescorche/qrlist-api/database"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

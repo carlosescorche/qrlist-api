@@ -3,11 +3,11 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/carlosescorche/qrlist/model/list"
-	"github.com/carlosescorche/qrlist/model/subscription"
-	"github.com/carlosescorche/qrlist/server"
-	"github.com/carlosescorche/qrlist/utils/api"
-	e "github.com/carlosescorche/qrlist/utils/errors"
+	"github.com/carlosescorche/qrlist-api/model/list"
+	"github.com/carlosescorche/qrlist-api/model/subscription"
+	"github.com/carlosescorche/qrlist-api/server"
+	"github.com/carlosescorche/qrlist-api/utils/api"
+	e "github.com/carlosescorche/qrlist-api/utils/errors"
 	"github.com/gorilla/mux"
 )
 

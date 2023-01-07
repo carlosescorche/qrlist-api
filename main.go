@@ -4,9 +4,9 @@ import (
 	"context"
 	"os"
 
-	"github.com/carlosescorche/qrlist/handlers"
-	"github.com/carlosescorche/qrlist/middlewares"
-	"github.com/carlosescorche/qrlist/server"
+	"github.com/carlosescorche/qrlist-api/handlers"
+	"github.com/carlosescorche/qrlist-api/middlewares"
+	"github.com/carlosescorche/qrlist-api/server"
 )
 
 func routes(s *server.Server) {

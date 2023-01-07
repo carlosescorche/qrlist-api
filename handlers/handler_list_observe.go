@@ -3,8 +3,8 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/carlosescorche/qrlist/server"
-	"github.com/carlosescorche/qrlist/utils/api"
+	"github.com/carlosescorche/qrlist-api/server"
+	"github.com/carlosescorche/qrlist-api/utils/api"
 	"github.com/gorilla/mux"
 )
 

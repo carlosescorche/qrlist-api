@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/carlosescorche/qrlist/utils/errors"
+	"github.com/carlosescorche/qrlist-api/utils/errors"
 )
 
 type HTTPResponseEnvelope struct {

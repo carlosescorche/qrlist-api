@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/carlosescorche/qrlist/utils/validator"
+	"github.com/carlosescorche/qrlist-api/utils/validator"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
